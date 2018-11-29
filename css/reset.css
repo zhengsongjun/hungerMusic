@@ -1,0 +1,30 @@
+/*reset*/
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+.clearfix::after{
+    content: '';
+    display:block;
+    clear: both;
+}
+
+body{
+    font: 14px/1.5 Arial;
+    background:#eee;
+    color:#444;
+}
+
+a{
+    color: #333
+}
